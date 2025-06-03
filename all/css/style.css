@@ -35,6 +35,11 @@ button {
     padding: 20mm;
     box-sizing: border-box;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    overflow-x: auto;   /* Habilita o scroll horizontal */
+    overflow-y: auto;   /* Habilita o scroll vertical */
+    overflow: hidden;
+    transform: scale(1.2);  /* Exemplo de zoom de 20% */
 }
 
 /* Para impressão */
@@ -50,3 +55,4 @@ button {
         page-break-after: always;
     }
 }
+
